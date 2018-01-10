@@ -1,0 +1,402 @@
+
+.Comfortaa_Bold{
+  font-family: Comfortaa_Bold, cursive;
+  color: #2c3f7f;
+}
+.Comfortaa_Regular{
+  font-family: Comfortaa_Regular, sans-serif;
+  color: #1c2952;
+}
+.Roboto-Bold{
+  font-family: Roboto-Bold, sans-serif;
+  font-weight: 300;
+  color: #2c3f7f;
+}
+.Roboto-Regular{
+  font-family: Roboto-Regular, sans-serif;
+  font-weight: normal;
+  color: #1c2952;
+}
+
+header{
+  background-image: url(../image/SVG/header_bg.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: auto;
+}
+
+header::before{
+  content:"";
+  border-top: 4px solid #7da7ed;
+  background: linear-gradient(to top left, #fafafa, #ffffff);
+  background: -webkit-linear-gradient(to top left, #fafafa, #ffffff);
+  opacity: 0.98;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+a{
+  color: #4f7afb !important;
+}
+
+nav.navbar{
+  font-weight: bold;
+  /* height: 127px; */
+  height: auto;
+  color: #4f7afb !important;
+}
+
+hr{
+
+  border-top: 1px solid #e6e7ea;
+  z-index: 1;
+}
+span.phone{
+  border-bottom: 1px dashed #4f7afb;
+}
+form span.bg-white{
+  border: 2px solid #4f7afb;
+  border-radius: 50px;
+}
+div.landbar{
+  width: 50px;
+  height: 20px;
+}
+
+
+.icon-angle-down{
+  width: 16px;
+  top: 4px;
+  left: 25px;
+  cursor: pointer;
+}
+
+
+div.lang{
+  position: relative;
+  display: block;
+  top: -3px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+}
+/* //////////////////////////////////////// */
+
+
+.tabs span.bg-white{
+  border: 2px solid #4f7afb;
+  border-radius: 50px;
+}
+
+/*/////////////////////////////////////////////*/
+
+.bgcontent::before{
+  content: "";
+  background: linear-gradient(to top left, #fafafa, #ffffff);
+  opacity: 0.98;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.client{
+  width: 100%
+  height: 100%;
+}
+
+.elipse{
+  width: 140px;
+  height: 140px;
+  background-color: white;
+  color: #4f74e8;
+  border: 3px solid #4f74e8;
+  border-radius: 100%;
+  z-index: 1;
+  top: -25px;
+  right: 5px;
+}
+
+/*////////////////////////////////////////*/
+
+
+.icon-kontakti::before{
+  content: "\e905";
+  position: relative;
+  top: 6px;
+  left: 5px;
+  margin-right: 16px;
+  color: #2c3f7f;
+}
+
+
+
+.icon-tovari-uslugi::before{
+  content: "\e90c";
+  position: relative;
+  top: 6px;
+  left: 5px;
+  margin-right: 16px;
+  color: #2c3f7f;
+}
+
+
+
+.icon-napominanie::before{
+  content: "\e900";
+  position: relative;
+  top: 6px;
+  left: 5px;
+  margin-right: 16px;
+  color: #2c3f7f;
+}
+
+
+
+.icon-rabota-otdela::before{
+  content: "\e90e";
+  position: relative;
+  top: 6px;
+  left: 5px;
+  margin-right: 16px;
+  color: #2c3f7f;
+}
+
+
+
+.icon-avtomatizatia::before{
+  content: "\e906";
+  position: relative;
+  top: 6px;
+  left: 5px;
+  margin-right: 16px;
+  color: #2c3f7f;
+}
+
+/*//////////////////////////*/
+
+.easy_start::before{
+  content:"";
+  background: linear-gradient(to bottom right, #fafafa, #ffffff);
+  opacity: 0.98;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+div.num1::before{
+  content: "";
+  width: 80px;
+  height: 80px;
+  background-image: url(../image/elips1.png);
+  position: absolute;
+  top: -25px;
+  left: -35px;
+  z-index: 1;
+}
+
+div.num2::before{
+  content: "";
+  width: 80px;
+  height: 80px;
+  background-image: url(../image/elips2.png);
+  position: absolute;
+  top: -25px;
+  left: -35px;
+}
+div.num3::before{
+  content: "";
+  width: 80px;
+  height: 80px;
+  background-image: url(../image/elips3.png);
+  position: absolute;
+  top: -25px;
+  left: -35px;
+}
+div.num4::before{
+  content: "";
+  width: 80px;
+  height: 80px;
+  background-image: url(../image/elips4.png);
+  position: absolute;
+  top: -25px;
+  left: -35px;
+}
+
+/*/////////////////////////////*/
+
+img.elipse{
+  width: 150px;
+  height: 150px;
+}
+
+.for::before{
+  content:"";
+  background: linear-gradient(to top left, #fafafa, #ffffff);
+  opacity: 0.98;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+/*//////////////////////////////////////*/
+
+div.foto{
+  display: inline-block;
+  background-color: #eaeffe;
+  border-radius: 10px;
+}
+.quote{
+  top: -60px;
+  right: -10px;
+}
+.b-s{
+  width: 15px;
+  height: 15px;
+  background: linear-gradient(#4e80f6, #83a9fa);
+  border-radius: 100%;
+}
+.avatar1::before{
+  content: "";
+  background-image: url(../image/boris.png);
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 20px;
+  left: -55px;
+
+}
+.avatar2::before{
+  content: "";
+  background-image: url(../image/andrei.png);
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 20px;
+  left: -55px;
+}
+.avatar3::before{
+  content: "";
+  background-image: url(../image/marina.png);
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 20px;
+  left: -55px;
+}
+
+
+/*/////////////////////////////*/
+
+
+.text{
+  background-color: #ffffff;
+}
+
+.line_blue{
+  border: 1px solid #5182f6;
+  width: 30px;
+}
+
+.text_angle{
+  border-radius: 200px;
+  background: linear-gradient( #4e80f6, #83a9fa);
+}
+
+.text_news{
+  top: -40px;
+}
+
+.news::before{
+  content:"";
+  background: linear-gradient(to top left, #fafafa, #ffffff);
+  opacity: 0.98;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+/*///////////////////////////////////////*/
+
+.footer-bg::before{
+  content: "";
+  background-image: url(../image/SVG/footer_bg.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+
+}
+.footer-gradient::after{
+  content: "";
+  background: linear-gradient(to top left, #fafafa, #ffffff);
+  background-repeat: no-repeat;
+  opacity: 0.98;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+/* //////////////////////////////////// */
+
+
+/* @media /////////////////////////// */
+
+ /* xs Экстрамалые девайсы («портретные телефоны», < 576px) */
+@media (max-width: 575.99px) {
+
+}
+
+/* sm  Малые девайсы («ландшафтные», >= 575px) */
+@media (min-width: 576px) and (max-width: 767.99px) {
+
+}
+
+ /* md Средние девайсы («таблетки», >= 768px)  */
+@media (min-width: 768px) and (max-width: 991.99px) {
+
+  .jslandbar{
+    top: 0px;
+    left: -195px;
+  }
+
+  .jsdd{
+    top: 0px;
+    left: -390px;
+  }
+
+  .jsform{
+    top: -213px;
+    left: 151px;
+  }
+
+}
+
+ /* lg Большие девайсы (большие десктопы, >= 992px) */
+@media (min-width: 992px) and (max-width: 1199.99px) {
+
+}
+
+ /* xl Большие девайсы (большие десктопы, >= 1200px) */
+@media (min-width: 1200px) {
+
+}

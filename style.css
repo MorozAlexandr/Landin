@@ -1,0 +1,185 @@
+@font-face{
+
+font-family: 'Comfortaa_Bold';
+
+src: url('fonts/Comfortaa_Bold.ttf');
+
+src: url('fonts/Comfortaa_Bold?iefix') format('eot'),
+
+url('fonts/Comfortaa_Bold.woff') format('woff'),
+
+url('fonts/Comfortaa_Bold.ttf') format('truetype'),
+
+url('fonts/Comfortaa_Bold.svg#webfont') format('svg');
+
+font-weight: bold;
+
+font-style: normal;
+
+}
+
+@font-face{
+
+font-family: 'Comfortaa_Regular';
+
+src: url('fonts/Comfortaa_Regular.eot');
+
+src: url('fonts/Comfortaa_Regular.eot?iefix') format('eot'),
+
+url('fonts/Comfortaa_Regular.woff') format('woff'),
+
+url('fonts/Comfortaa_Regular.ttf') format('truetype'),
+
+url('fonts/Comfortaa_Regular.svg#webfont') format('svg');
+
+font-weight: normal;
+
+font-style: normal;
+
+}
+
+@font-face{
+
+font-family: 'Roboto-Regular';
+
+src: url('fonts/Roboto-Regular.ttf');
+
+src: url('fonts/Roboto-Regular?iefix') format('eot'),
+
+url('fonts/Roboto-Regular.woff') format('woff'),
+
+url('fonts/Roboto-Regular.ttf') format('truetype'),
+
+url('fonts/Roboto-Regular.svg#webfont') format('svg');
+
+font-weight: normal;
+
+font-style: normal;
+
+}
+@font-face{
+
+font-family: 'Roboto-Bold';
+
+src: url('fonts/Roboto-Bold.ttf');
+
+src: url('fonts/Roboto-Bold?iefix') format('eot'),
+
+url('fonts/Roboto-Bold.woff') format('woff'),
+
+url('fonts/Roboto-Bold.ttf') format('truetype'),
+
+url('fonts/Roboto-Bold.svg#webfont') format('svg');
+
+font-weight: bold;
+
+font-style: normal;
+
+}
+
+
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?q4oa1u');
+  src:  url('fonts/icomoon.eot?q4oa1u#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?q4oa1u') format('truetype'),
+    url('fonts/icomoon.woff?q4oa1u') format('woff'),
+    url('fonts/icomoon.svg?q4oa1u#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-napominanie:before {
+  content: "\e900";
+}
+.icon-zvonki:before {
+  content: "\e901";
+}
+.icon-pisima:before {
+  content: "\e902";
+}
+.icon-soobshenie:before {
+  content: "\e903";
+}
+.icon-vstreci:before {
+  content: "\e904";
+}
+.icon-kontakti:before {
+  content: "\e905";
+}
+.icon-avtomatizatia:before {
+  content: "\e906";
+}
+.icon-contract:before {
+  content: "\e907";
+}
+.icon-megaphone:before {
+  content: "\e908";
+}
+.icon-graphic-1:before {
+  content: "\e909";
+}
+.icon-money:before {
+  content: "\e90a";
+}
+.icon-rocket:before {
+  content: "\e90b";
+}
+.icon-tovari-uslugi:before {
+  content: "\e90c";
+}
+.icon-note:before {
+  content: "\e90d";
+}
+.icon-rabota-otdela:before {
+  content: "\e90e";
+}
+.icon-coins:before {
+  content: "\e90f";
+}
+.icon-diagram:before {
+  content: "\e910";
+}
+.icon-graphic:before {
+  content: "\e911";
+}
+.icon-angle-double-right:before {
+  content: "\e912";
+}
+.icon-angle-down:before {
+  content: "\e913";
+}
+.icon-angle-up:before {
+  content: "\e914";
+}
+.icon-arrow-right:before {
+  content: "\e915";
+}
+.icon-facebook:before {
+  content: "\e916";
+}
+.icon-instagram:before {
+  content: "\e917";
+}
+.icon-linkedin:before {
+  content: "\e918";
+}
+.icon-twitter:before {
+  content: "\e919";
+}
